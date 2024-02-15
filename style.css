@@ -23,6 +23,16 @@ body {
     margin-bottom: 1rem;
 }
 
+.secondary-heading {
+    transition: all 0.3s;
+}
+
+.secondary-heading:hover,
+.secondary-heading:active {
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+
 .main-content {
     box-shadow: 8px 8px 1px hsl(0, 0%, 7%);
     background-color: white;
@@ -71,4 +81,10 @@ body {
 
 .author img {
     width: 10%;
+}
+
+@media (max-width: 32em) {
+    .container {
+        margin: 10rem auto;
+    }
 }
