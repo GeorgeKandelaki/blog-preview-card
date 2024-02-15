@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Figtree", sans-serif;
+    font-size: 1.6rem;
+    background-color: hsl(47, 88%, 63%);
+}
+
+.container {
+    max-width: 40rem;
+    margin: 20rem auto;
+}
+
+.margin-bottom-sm {
+    margin-bottom: 1rem;
+}
+
+.main-content {
+    box-shadow: 8px 8px 1px hsl(0, 0%, 7%);
+    background-color: white;
+    padding: 2.4rem;
+    margin: 1rem;
+    border: solid 1px hsl(0, 0%, 50%);
+    border-radius: 1.5rem;
+}
+
+.introduction-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.introduction-box img {
+    border-radius: 1rem;
+}
+
+.process {
+    width: 25%;
+    font-weight: 800;
+    padding: 5px;
+    text-align: center;
+    background-color: hsl(47, 88%, 63%);
+    border-radius: 5px;
+}
+
+.content-box {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.content-text {
+    color: hsl(0, 0%, 50%);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-weight: 600;
+}
+
+.author img {
+    width: 10%;
+}
